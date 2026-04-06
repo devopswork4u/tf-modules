@@ -1,0 +1,98 @@
+# Terraform Files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+*.tfplan.*
+.terraform/
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include override files you do wish to add to version control using negated pattern
+# !example_override.tf
+
+# Include .tfvars files you do wish to add to version control using negated pattern
+# !example.tfvars
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+
+# Azure CLI
+.azure/
+
+# SSH Keys (if any are generated locally)
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Local Terraform modules (if using local development)
+.terraform.d/
+
+# Terraform provider cache
+.terraform/providers/
+
+# Example files that should not be committed
+example.tfvars
+test.tfvars
+dev.tfvars
+prod.tfvars
+
+# Keep example template files
+!example-*.tfvars
+!*.tfvars.example
